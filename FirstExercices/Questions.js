@@ -72,7 +72,7 @@ console.log('\nQuestion 07:');
 secondGradeEquation = (a,b,c) => {
     delta = (b ** 2) - (4 * a * c);
     if (delta < 0) {
-        return 'Delta é negativo';
+        return 'Negative Delta';
     } else if (delta == 0) {
         return (-b/(2 * a));
     } else {
